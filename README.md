@@ -24,3 +24,5 @@ Mientras que la consulta, un patron con unicamente variables. Por ejemplo: **[('
 2. Dado un patron que tiene solo variables, y exactamentecuatro variables, entregue todos los matches de ese patrón (como tuplas de 4 nodos) b^(4)
 reducers, donde b es un parámetro.
 
+Aqui queremos señalar que probamos nuestro algoritmo con datos instanciados con el objetivo de ejemplificar 
+
