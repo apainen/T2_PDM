@@ -12,6 +12,10 @@ Rodolfo Cruz y Antonia Painen
 
 ### 3. **Busqueda de patrones de 4 variables**
 1. Se asume que se recibe la matriz M.
-   Dado que el enunciado 
-2. Dado un patron que tiene solo variables, y exactamentecuatro variables, entregue todos los matches de ese patrón (como tuplas de 4 nodos) b^4
+Para el desarrollo de esta parte, definimos el algoritmo basado en que la matriz M, de tamaño |A|x|L|x|A|esta compuesta con:
+**A**: con elementos del tipo numerico, correspondientes a variables de los nodos.
+**L**: con elementos del tipo numerico, correspondientes a variables de las etiquetas
+
+Mientras que la consulta, un patron con unicamente variables. Por ejemplo: **[('x', 'u', 'y'), ('y', 'u', 'z'), ('z', 'u', 'w'), ('w', 'u', 'x')]**
+3. Dado un patron que tiene solo variables, y exactamentecuatro variables, entregue todos los matches de ese patrón (como tuplas de 4 nodos) b^4
 reducers, donde b es un parámetro.
